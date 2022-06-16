@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AI DJ WEB APP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+<script src="image.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/addons/p5.sound.js"></script>
+</head>
+<body background="im.jpg">
+    <center>
+  <h1 class="btn btn-info heading">
+DJ web app of "RR"
+  </h1> 
+  <br>
+  <span class=" btn btn-success note">
+ raise left hand in the front of the Webcam to increase speed or raise your right hand in the front to increase volume.<br>
+ Also keep the distance from webcam for 2m for nice picture.
+  </span>
+  <br>
+  <button onclick="play1()" class="btn btn-success play">Play</button>
+  
+  <div class="div_speed">
+    <img src="loader_sci-fi.gif" class="div_speed_img">
+    <br><br>
+    <button class="btn btn-success" id="speed">speed</button>
+     </div>
+     <div class="div_volume">
+       <img src="loader_sci-fi.gif" class="div_volume_img">
+       <br><br>
+       <button class="btn btn-success" id="volume">volume</button>
+        </div> 
+      
+        <button class="btn btn-success play" onclick="back()">Back</button>
+   </center>
+</body>

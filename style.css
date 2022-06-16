@@ -1,0 +1,46 @@
+body{
+    background-size: cover;
+}
+.heading{
+    font-size: 25px;
+    color: blueviolet;
+    font-weight: 900;
+    width: 100%;
+    margin-top: 0px;
+}
+.note{
+    font-size: 15px;
+    color: brown;
+    font-weight: 200;
+}
+.play{
+    font-size: 20px;
+    margin: 10px;
+    color: black;
+}
+.canvas{
+    border-radius: 20px;
+    box-shadow: 5px solid white;
+}
+.div_volume{
+    float: right;
+}
+.div_volume_img{
+    width: 200px;
+    border-radius: 100px;
+}
+#volume{
+    font-size: 25px;
+    margin: 15px;
+}
+.div_speed{
+    float: left;
+}
+.div_speed_img{
+    width: 200px;
+    border-radius: 100px;
+}
+#speed{
+    font-size: 25px;
+    margin: 15px;
+}
